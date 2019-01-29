@@ -16,12 +16,21 @@ Please use a recent Linux kernel, 2.6.33+ recommended.
 If you use FreeBSD, 8.0+ recommended.
 
 This channel driver should work with the folowing UMTS cards:
-* Huawei K3715
-* Huawei E169 / K3520
+
+* Huawei E153
 * Huawei E155X
+* Huawei E156
+* Huawei E160
+* Huawei E169
+* Huawei E1692
 * Huawei E175X
+* Huawei E1762
+* Huawei E180
 * Huawei E261
+* Huawei K3520
+* Huawei K3715
 * Huawei K3765
+
 
 Check complete list in:
 http://wiki.e1550.mobi/doku.php?id=requirements#list_of_supported_models
