@@ -29,10 +29,10 @@ This channel driver should work with the folowing UMTS cards:
 * Huawei E1762
 * Huawei E180
 * Huawei E261
-* Huawei E303
-* Huawei K3520(not to confuse with K3520-z)
+* Huawei K3520(not to confuse with K3520-z) rebranded E169
+* Huawei K3565(not to confuse with K3565-z) rebranded E160
 * Huawei K3715
-* Huawei K3765
+* Huawei K3765 rebranded E1762
 
 
 Check complete list in:
