@@ -38,6 +38,27 @@ This channel driver should work with the folowing UMTS cards:
 Check complete list in:
 http://wiki.e1550.mobi/doku.php?id=requirements#list_of_supported_models
 
+*USB 2.0* - up to 480Mbit/s
+For voice call feature, it's highly recommended the use of USB version 2.0
+One chan_dongle data stream may take 500kbit usb bandwidth (250kbit per direction) without usb overhead, 23KiB steady. Plan accordingly.
+
+USB 1.1 can be work with USB 1.1 dongles - up to 12Mbit/s
+
+USB 3.0 working, but have limited number of devices per root hub - up to 5000Mbit/s
+
+*Power specs and USB hubs
+According to vendor specs, most usb modems have:
+
+5V/500mA → 2.5 W
+Almost every computer has USB ports where you can plug devices such as pen drives, bluetooth dongles, portable hard disks, etc. 3G modems can also be plugged, but power source may be a serious limitation. If your computer has several USB ports, you must check it can deliver all the power needed for your devices at the same time.
+
+Normally, USB ports can deliver only 500 mA, so if you have more than one modem (or other hungry devices) plugged, it's possible you get stuck with strange problems.
+
+Also, USB hubs can be a source of problems if you connect more than one 3G modem. 500 mA is not enough current for 2 or more dongles. In this case, external powered USB hub is recommended to avoid strange behavior, but be very careful with this, not any model is ok for this task. Some of them have serious problems with RF interferences from GSM side, making impossible to use chan_dongle.
+
+
+
+
 Before using the channel driver make sure to:
 * Disable PIN code on your SIM card
 
