@@ -40,6 +40,8 @@ http://wiki.e1550.mobi/doku.php?id=requirements#list_of_supported_models
 
 **About USB hubs**
 
+Usb hubs chaining depth is 5. Device count (theoretically) is 127.
+
 **USB 2.0** - up to 480Mbit/s
 
 For voice call feature, it's highly recommended the use of USB version 2.0
